@@ -1,0 +1,6 @@
+timestamp,experiment_name,explanation,model,Accuracy_Train,Accuracy_Test,F1_Train,F1_Test,Precision_Train,Precision_Test,Recall_Train,Recall_Test,ROC_AUC,Overfit_Gap
+2026-02-26 00:21:26,TFIDF-LR,"TF-DF:(1,2)",LogisticRegression,0.9686,0.9328,0.9686,0.9328,0.9686,0.9328,0.9686,0.9328,0.9797,0.0358
+2026-02-26 00:24:37,TFIDF-XGB,"TF-DF:(1,2), XGB: logloss",XGBClassifier,0.9153,0.845,0.9152,0.845,0.9188,0.8468,0.9153,0.845,0.9353,0.0703
+2026-02-26 00:44:38,TFIDF-dt,"TF-DF:(1,2), dt: def",DecisionTreeClassifier,1.0,0.8101,1.0,0.8087,1.0,0.8159,1.0,0.8101,0.8079,0.1899
+2026-02-26 00:51:08,TFIDF-rf,"TF-DF:(1,2), rf: def",RandomForestClassifier,1.0,0.9088,1.0,0.9088,1.0,0.9088,1.0,0.9088,0.9685,0.0912
+2026-02-26 00:58:40,TFIDF-svc,"TF-DF:(1,2), svc: def",SVC,0.9989,0.9409,0.9989,0.9409,0.9989,0.9409,0.9989,0.9409,,0.058

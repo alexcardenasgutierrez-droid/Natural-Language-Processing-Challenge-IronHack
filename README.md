@@ -11,7 +11,7 @@ The dataset was provided by Ironhack for this specific challenge.
 * **Data Quirks:** The dataset contains no missing values, though 1,946 duplicated rows were identified during exploration.
 
 ## Research Goal
-The primary objective of this project was to build a classifier capable of distinguishing between real and fake news headlines. A secondary goal was to practice and compare different text vectorization techniques (TF-IDF, Bag of Words, and Embeddings) across various classification models. *Note: My specific focus was on TF-IDF vectorization with various preprocessing methods, while my collaborative partner explored Bag of Words and Embeddings.*
+The primary objective of this project was to practice and compare different text vectorization techniques (TF-IDF, Bag of Words, and Embeddings) across various classification models. A secondary goal was to build a classifier capable of distinguishing between real and fake news headlines. *Note: My specific focus was on TF-IDF vectorization with various preprocessing methods, while my collaborative partner explored Bag of Words and Embeddings.*
 
 ## Steps Taken
 * **Data Exploration:** Loaded, explored, and split the data into training and testing sets.
@@ -34,10 +34,14 @@ The primary objective of this project was to build a classifier capable of disti
 ## Next Steps / Ideas for Improvement
 * Tune the Logistic Regression model further and benchmark it extensively against the other models.
 * Experiment with different word embedding techniques (like Word2Vec or GloVe) to see if semantic relationships improve accuracy.
-* Explore Deep Learning approaches, such as building a Convolutional Neural Network (CNN) or an RNN, instead of relying solely on traditional classifiers.
+* Explore Deep Learning approaches, such as building a Convolutional Neural Network (CNN), instead of relying solely on traditional classifiers.
 
 ## Repo Structure
 | Folder/File | Description |
 | :--- | :--- |
 | **`Notebooks/`** | Contains the main Jupyter Notebook with the EDA, preprocessing, and modeling, alongside a `utils.py` file used to generate model metrics. |
 | **`Data/`** | Stores the dataset files: `training_data.csv`, `testing_data.csv`, and the final output `testing_predicted_data.csv`. |
+| **`results`** | Stores the .csv files with the scores of each combination tried in `results.csv`. |
+| **`NLP.pptx`** | The presentation that my work collegue and me presented in class |
+
+

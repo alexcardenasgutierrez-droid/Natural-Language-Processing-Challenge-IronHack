@@ -41,7 +41,7 @@ The primary objective of this project was to practice and compare different text
 | :--- | :--- |
 | **`Notebooks/`** | Contains the main Jupyter Notebook with the EDA, preprocessing, and modeling, alongside a `utils.py` file used to generate model metrics. |
 | **`Data/`** | Stores the dataset files: `training_data.csv`, `testing_data.csv`, and the final output `testing_predicted_data.csv`. |
-| **`results`** | Stores the .csv files with the scores of each combination tried in `results.csv`. |
+| **`results/`** | Stores the .csv files with the scores of each combination tried in `results.csv`. |
 | **`NLP.pptx`** | The presentation that my work collegue and me presented in class |
 
 
